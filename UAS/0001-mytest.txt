@@ -1,0 +1,26 @@
+Script started on Sun May 31 15:53:39 2020
+]0;leonardo81@badak: ~leonardo81@badak:~$ PS1="$ "
+$ PS1="$ "[C[C[4Pexit[C[Ccat 0001-mytest.txt [C[Cls[Kcat coba.txt [C[C[C[C[C[C[11@0002-mytest.txt.asc[C[C[C[C[C[C[C[11Pcoba.txt[C[C[Cls[Kcat 0001-mytest.txt [C[Cexit[K[C[CPS1="$ "[C[C[Kecho $GitHubUser 
+leleonardo81
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ echo $PSTAMP[1P[1P[C[1P $PSTAMP[C[C[Cv $PSTAMP[C[C[C[Ca $PSTAMP[C[C[C[C[Cl $PSTAMP[C[C[C[C[C[C
+200531-155422-1d74-leonardo81/> 
+$ PS1="\$(eval \$PSTAMP)"
+200531-155436-9dd0-leonardo81/> date
+Sun May 31 15:54:42 WIB 2020
+200531-155442-6715-leonardo81/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/l/leonardo81/.gnupg/pubring.gpg
+--------------------------------------------------------
+pub   4096R/4C1C6013 2020-03-01
+uid       [ultimate] Leonardo (OS201 C 1806191023 leleonardo81 leonardo) <leonardo81@ui.ac.id>
+sub   4096R/A3CF6684 2020-03-01
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200531-155506-9405-leonardo81/> exit
+exit
+
+Script done on Sun May 31 15:55:23 2020
